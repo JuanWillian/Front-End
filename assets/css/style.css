@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: rgb(218, 226, 233);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.botoes {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.face {
+  margin: 5px;
+  background-color: blue;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.google {
+  margin: 5px;
+  color: #000;
+  text-decoration: none;
+  border: solid black 1px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.login {
+  height: 70vh;
+  width: 20vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 4px 4px black;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+
+}
+.inputs input{
+    border-radius: 20px;
+    padding: 10px;  
+    margin: 5px; 
+    border-color: rgba(15, 15, 15, 0.356);
+    
+}
+.btn-logar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.btn-logar a{
+    
+  background-color: #D8FE3A;
+  border: solid black 1px;
+  border-radius: 20px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding:8px 70px;
+}
